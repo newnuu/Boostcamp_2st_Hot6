@@ -46,5 +46,5 @@ Boostcamp2기 6조 Hot6
 > 1주차
 * 8/2 월 : Python 1~2강
 * 8/3 화 : Python 3~5강
-* 8/4 수 : Python 6~7강, AI Math 1~3강
+* 8/4 수 : Python 6\~7강, AI Math 1~3강
 * 8/5 목 : AI Math 4~10강
