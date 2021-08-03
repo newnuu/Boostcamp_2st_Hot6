@@ -1,30 +1,25 @@
 # 1141번 접두사 실버 3
-# 잘못 푼 것 같습니다. 점심시간에 다시 작성해서 올리겠습니다!
-
-
-
-
-
-
-
-
-'''
-# 참고자료 https://wikidocs.net/1015#1-add
-
-prefix_x = set(['hello', 'goodbye', 'giant', 'hi'])
-prefix_not_x = set(['hello', 'hell', 'giant', 'gig', 'g'])
 
 n = int(input())
-s = set([])
+s = []
+result = 0
 
 for i in range(n):
-  s.add(input())
+  s.append(input())
 
-result = prefix_x & s # 교집합 prefix_x.intersection(s)
-print(result)
+for i in range(n):
+  for j in range(n):
+    s1 = s[i]
+    s2 = s[j]
+  
+    if i != j:
+      if len(s1) == 1 and s1 == s2[:1]:
+        continue
+      elif len(s2) == 1 and s1[:1] == s2:
+        continue
+      elif len(s1) > 0 and len(s2) > 0 and s1[:2] == s2[:2]:
+        continue
+      else:
+        result += 1
 
-result = result - prefix_not_x # 차집합 result.difference(prefix_not_x)
-print(result)
-
-print(len(result))
-'''
+print(result // n)
