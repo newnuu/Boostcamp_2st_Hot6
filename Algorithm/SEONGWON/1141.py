@@ -1,17 +1,27 @@
-import sys
-input = sys.stdin.readline
+from sys import stdin
+input = stdin.readline
 
-def solution(N, words):
-    answer = 1 
-    words.sort()
-    for i in range(N - 1):
-        if not words[i + 1].startswith(words[i]):
-            answer += 1
-    
-    return answer
-    
-if __name__ == '__main__':
-    N = int(input())
-    words = [input().strip() for _ in range(N)]
-    result = solution(N, words)
-    print(result)
+N = int(input())
+a = [input().strip() for _ in range(N)]
+
+a = ['hello', 'hi', 'h', 'run', 'rerun', 'running']
+N = 6
+
+a.sort(key=len)
+
+result = []
+for i in range(N):
+    standard_word = a[i]
+    is_head = False
+    for j in range(i+1, N):
+        try:
+            word = a[j]
+            if word.startswith(standard_word):
+                is_head = True
+                break
+        except Exception:
+            continue
+    if is_head == False:
+        result.append(standard_word)
+        
+print(len(result))
