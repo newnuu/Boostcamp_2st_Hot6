@@ -1,8 +1,8 @@
-# 통과가 안되네요..? 
-# 런타임에러.......???
+from sys import stdin
+input = stdin.readline
 
-# a = input().split()
-# N = int(a.pop(0))
+N = int(input())
+a = [input().strip() for _ in range(N)]
 
 a = ['hello', 'hi', 'h', 'run', 'rerun', 'running']
 N = 6
@@ -17,7 +17,6 @@ for i in range(N):
         try:
             word = a[j]
             if word.startswith(standard_word):
-                print(word.startswith(standard_word))
                 is_head = True
                 break
         except Exception:
