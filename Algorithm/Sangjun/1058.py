@@ -10,7 +10,7 @@ for i in range(num):
                 continue
             
             # 두 사람이 친구이거나 친구가 아닐 경우 2-친구를 찾음
-            if friends[j][k] == 'Y' or (friends[i][k] == 'Y' and friends[j][k] == 'Y'):
+            if friends[j][k] == 'Y' or (friends[i][k] == 'Y' and friends[k][i] == 'Y'):
                 board[j][k] = 1
 
 
