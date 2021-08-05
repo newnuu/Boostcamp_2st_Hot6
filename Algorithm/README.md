@@ -37,4 +37,4 @@
 |8/2|[1141](https://www.acmicpc.net/problem/1141)|접두사|실버3|최성원|문자열|
 |8/2|[1051](https://www.acmicpc.net/problem/1051)|숫자 정사각형|실버3|최성원|구현|
 |8/3|[1058](https://www.acmicpc.net/problem/1058)|친구|실버2|최성원|DFS|
-||||||||
+|8/5|[1138](https://www.acmicpc.net/problem/1138)|한 줄로 서기|실버2|최성원|구현|
