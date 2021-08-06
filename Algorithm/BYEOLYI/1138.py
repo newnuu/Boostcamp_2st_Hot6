@@ -10,13 +10,16 @@ for i in range(1, n+1):
   cnt = 0
   for j in range(n):
     if cnt == t and result[j] == 0:
-      result[j] = i
+      result[j] = str(i)
       break
     elif result[j] == 0:
       cnt += 1
   # print(t, cnt, result[j])
 
-print(result)
+result = "".join(result)
+print(*result)
+
+
 
 '''
 n = int(input())
