@@ -38,3 +38,10 @@
 |8/2|[1051](https://www.acmicpc.net/problem/1051)|숫자 정사각형|실버3|최성원|구현|
 |8/3|[1058](https://www.acmicpc.net/problem/1058)|친구|실버2|최성원|DFS|
 |8/5|[1138](https://www.acmicpc.net/problem/1138)|한 줄로 서기|실버2|최성원|구현|
+|8/6|[2606](https://www.acmicpc.net/problem/2606)|바이러스|실버3|최성원|BFS|
+|8/6|[9204](https://www.acmicpc.net/problem/9204)|체스|골드5|최성원|BFS|
+* BFS 부수기 갑시다!(바이러스 먼저 풀고 체스 푸시면 좋을 것 같습니다!)
+
+|||||||
+|||||||
+|||||||
