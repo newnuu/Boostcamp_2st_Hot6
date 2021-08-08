@@ -39,13 +39,13 @@
 * [github](https://github.com/sangmandu/Boostcamp_2st_Hot6) 
 ------
 > 학습 정리 블로그
-* [박별이]() 
+* [박별이] 
 * [손희락](https://github.com/raki-1203/boostcamp_note)  
-* [이상준]()  
-* [이은우]()
-* [장재현]()  
-* [전상민]()
-* [최성원]()
+* [이상준]
+* [이은우]
+* [장재현]  
+* [전상민](https://sangmandu.gitbook.io/til/til_ml/boostcamp-2st)
+* [최성원]
 
 
 ## 🛴 진도
