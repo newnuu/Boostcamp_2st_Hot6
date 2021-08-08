@@ -4,7 +4,7 @@ com = int(input())
 pair = int(input())
 
 graph = [[0] * (com + 1) for _ in range(com + 1)] # graph 2차원 배열
-visited = [0 for _ in range(com + 1)] #방문했는지 check 하는 배열
+visited = [0 for _ in range(com + 1)] #방문했는지 check 하는 리스트
 
 for _ in range(pair):
     # 방향이 없는 그래프 이므로 (x, y) (y, x) 모두 1로 바꿔줘야함
