@@ -2,7 +2,6 @@
 
 t = int(input())
 chess = []
-# data = [[0] * 8 for _ in range(8)]
 alphabet = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
 reverse_alphabet = dict(map(reversed, alphabet.items()))
 
@@ -25,31 +24,41 @@ def fun(x, num_x, y, num_y):
     start = x + num_x
     end = y + num_y
     num = abs((start - end) // 2)
+    
+    if start < end:
+      # 사선 번호가 작은 쪽
+      plus_x = x + num
+      plus_y = num_x + num
+      # 사선 번호가 큰 쪽
+      minus_x = y - num
+      minus_y = num_y - num
+    else:
+      # 사선 번호가 큰 쪽
+      minus_x = x - num
+      minus_y = num_x - num
+      # 사선 번호가 작은 쪽
+      plus_x = y + num
+      plus_y = num_y + num
 
-    # 사선 번호가 작은 쪽
-    plus_x = x + num
-    plus_y = num_x + num
-    # 사선 번호가 큰 쪽
-    minus_x = y - num
-    minus_y = num_y - num
     # 알파벳 출력
     x = reverse_alphabet.get(x)
     y = reverse_alphabet.get(y)
 
     # 체스판을 벗어나지 않아야 함
-    if plus_x <= 7 and plus_y <= 7:
+    if 0 <= plus_x <= 7 and 0 <= plus_y <= 7:
       plus_x = reverse_alphabet.get(plus_x)
 
       if plus_x == y and plus_y == num_y:
-        result = f'0 {plus_x} {plus_y + 1}'
+        result = f'1 {x} {num_x + 1} {y} {num_y + 1}'
       else:
         result = f'2 {x} {num_x + 1} {plus_x} {plus_y + 1} {y} {num_y + 1}'
 
-    elif minus_x >= 0 and minus_y >= 0:
+    # 체스판을 벗어나지 않아야 함
+    elif 0 <= minus_x <= 7 and 0 <= minus_y <= 7:
       minus_x = reverse_alphabet.get(minus_x)
 
       if minus_x == y and minus_y == num_y:
-        result = f'0 {minus_x} {minus_y + 1}'
+        result = f'1 {x} {num_x + 1} {y} {num_y + 1}'
       else:
         result = f'2 {x} {num_x + 1} {minus_x} {minus_y + 1} {y} {num_y + 1}'
       
