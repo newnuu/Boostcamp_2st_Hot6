@@ -40,9 +40,9 @@
 |8/5|[1138](https://www.acmicpc.net/problem/1138)|한 줄로 서기|실버2|최성원|구현|
 |8/6|[2606](https://www.acmicpc.net/problem/2606)|바이러스|실버3|최성원|BFS|
 |8/6|[9204](https://www.acmicpc.net/problem/9204)|체스|골드5|최성원|BFS|
-* BFS 부수기 갑시다!(바이러스 먼저 풀고 체스 푸시면 좋을 것 같습니다!)
-* [bfs를 모르신다면 참고 사이트](https://cyc1am3n.github.io/2019/04/26/bfs_dfs_with_python.html)
+|8/9|[7562](https://www.acmicpc.net/problem/7562)|나이트의 이동|실버2|손희락|BFS|
+|8/9|[10026](https://www.acmicpc.net/problem/10026)|적록색약|골드5|손희락|DFS|
+|||||||
 
-|||||||
-|||||||
-|||||||
+
+* [bfs를 모르신다면 참고 사이트](https://cyc1am3n.github.io/2019/04/26/bfs_dfs_with_python.html)
