@@ -2,18 +2,21 @@
 https://www.acmicpc.net/problem/9081
 단어 맞추기
 [풀이]
-1. 각 단어가 구성할 수 있는 경우의 수를 구하기 위해 permutations import
-2. 이 때 단어의 알파벳이 중복될수도 있으므로 set을 적용해준다
-3. 입력받은 단어 뒤의 단어를 알기위해 정렬을 한다
-=> 문자열의 순서는 문자열을 숫자로 바꾸더라도 동일하다
-4. idx를 찾는다. 마지막 원소라면 그대로 유지. 이후 반환
+1. 각 단어가 다음 단어로 넘어가는 규칙은 다음과 같다
+1-1. 마지막 단어부터 역순으로 탐색한다.
+1-2. 앞 단어가 뒷 단어보다 작은 구간을 찾는다.
+=> 여기서 작다는 의미는 사전순으로 앞에 온다는 의미이다
+1-3. 찾았다면, 이 앞단어보다 뒤에 있는 단어들 중에 앞단어보다는 크면서 가장 최소인 단어가 이 자리로 온다.
+1-4. 그리고 이 앞단어는 뒷단어들 사이에 껴서 최초 오름차순 정렬된 상태로 된다.
+2. 이 규칙을 만족하지 않는 단어는 가장 마지막 단어이므로 그대로 반환한다.
 '''
-from itertools import permutations
 n = int(input())
 for _ in range(n):
     word = list(input())
-    num = [ord(w) for w in word]
-    nums = sorted([n for n in tuple(set(permutations(num, len(num))))])
-    idx = nums.index(tuple(num))
-    idx = idx if idx+1 == len(nums) else idx+1
-    print(''.join([chr(n) for n in nums[idx]]))
+    for idx in range(len(word)-1, 0, -1):
+        if word[idx] > word[idx-1]:
+            a, b = min([(w, jdx) for jdx, w in enumerate(word[idx:]) if w > word[idx - 1]])
+            print(''.join(word[:idx-1]+[a]+sorted(word[idx:idx+b]+word[idx+b+1:]+[word[idx-1]])))
+            break
+    else:
+        print(''.join(word))
