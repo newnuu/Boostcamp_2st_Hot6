@@ -43,6 +43,7 @@
 |8/9|[7562](https://www.acmicpc.net/problem/7562)|나이트의 이동|실버2|손희락|BFS|
 |8/9|[10026](https://www.acmicpc.net/problem/10026)|적록색약|골드5|손희락|DFS|
 |8/10|[5710](https://www.acmicpc.net/problem/5710)|전기 요금|골드5|손희락|이분탐색|
+|8/11|[9081](https://www.acmicpc.net/problem/9081)|단어 맞추기|골드5|손희락|문자열|
 |||||||
 
 
