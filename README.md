@@ -54,3 +54,9 @@
 * 8/3 화 : Python 3\~5강, AI Math 5~6강
 * 8/4 수 : Python 6\~7강, AI Math 7~9강
 * 8/5 목 : AI Math 10강
+> 2주차
+* 8/9 월 : DL Basic 1\~2강
+* 8/10 화 : DL Basic 3강
+* 8/11 수 : DL Basic 4\~6강
+* 8/12 목 : DL Basic 7\~8강
+* 8/13 금 : DL Basic 9\~10강
