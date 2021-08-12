@@ -44,6 +44,7 @@
 |8/9|[10026](https://www.acmicpc.net/problem/10026)|적록색약|골드5|손희락|DFS|
 |8/10|[5710](https://www.acmicpc.net/problem/5710)|전기 요금|골드5|손희락|이분탐색|
 |8/11|[9081](https://www.acmicpc.net/problem/9081)|단어 맞추기|골드5|손희락|문자열|
+|8/12|[3077](https://www.acmicpc.net/problem/3077)|임진왜란|실버3|손희락|문자열|
 |||||||
 
 
