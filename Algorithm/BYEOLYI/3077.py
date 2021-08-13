@@ -12,9 +12,8 @@ for i in range(n):
   for j in range(i + 1, n):
     student1 = student_answer.index(correct_answer[i])
     student2 = student_answer.index(correct_answer[j])
-
-    print(student1, student2)
     
+    # 정답 순서와 같을 경우
     if student1 < student2:
       a += 1
       
