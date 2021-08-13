@@ -45,6 +45,8 @@
 |8/10|[5710](https://www.acmicpc.net/problem/5710)|전기 요금|골드5|손희락|이분탐색|
 |8/11|[9081](https://www.acmicpc.net/problem/9081)|단어 맞추기|골드5|손희락|문자열|
 |8/12|[3077](https://www.acmicpc.net/problem/3077)|임진왜란|실버3|손희락|문자열|
+|8/13|[3182](https://www.acmicpc.net/problem/3182)|한동이는 공부가 하기 싫어!|실버3|손희락|브루트포스 알고리즘|
+|8/13|[1027](https://www.acmicpc.net/problem/1027)|고층 건물|골드5|손희락|브루트포스 알고리즘|
 |||||||
 
 
