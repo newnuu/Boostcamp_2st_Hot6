@@ -9,9 +9,7 @@ def solution(N, true_list, pred_list):
 
     # 정답 dictionary
     true_dict = {t: i for i, t in enumerate(true_list)}
-    # 현우 제출 dictionary
-    pred_dict = {p: i for i, p in enumerate(pred_list)}
-
+    
     for i in range(N):
         for j in range(i+1, N):
             # 만약 정답의 순서가 
