@@ -4,6 +4,7 @@ def fibonacci(n):
   a, b = 1, 1
   # fibonacci(0)은 0을 출력, 0을 리턴
   if n == 0: b = 0
+  # fibonacci(1)은 1을 출력, 1을 리턴
   elif n == 1: a = 0
   
   # 호출횟수 = 피보나치 수
@@ -18,6 +19,7 @@ t = int(input())
 
 for _ in range(t):
   n = int(input())
+  # tuple로 return되어서 각각 변수에 저장
   a, b = fibonacci(n)
   print(a, b)
 
