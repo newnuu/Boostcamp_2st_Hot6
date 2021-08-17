@@ -36,8 +36,9 @@
 
 |날짜|번호|문제이름|난이도|선정자|분류|
 |------|---|---|---|---|---|
+|8/17|[1003](https://www.acmicpc.net/problem/1003)|피보나치 함수|실버 4|전상민|다이내믹 프로그래밍|
 |8/17|[4150](https://www.acmicpc.net/problem/4150)|피보나치 수7|실버 4|전상민|수학|
-* 4150번 문제를 풀면 다음 문제들의 정답도 똑같이 제출해서 통과할 수 있습니다
+* 4150번 문제를 풀면 다음 문제들의 정답도 똑같이 제출해서 통과할 수 있습니다 (solved.ac 경험치 꿀꺽)
   * [10826](https://www.acmicpc.net/problem/10826), [2747](https://www.acmicpc.net/problem/2747), [10870](https://www.acmicpc.net/problem/10870), [2748](https://www.acmicpc.net/problem/2747)
 
 > Week 2  
