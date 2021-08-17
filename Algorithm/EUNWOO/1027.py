@@ -9,16 +9,9 @@ for i in range(1,n):
     result[i]+=1 # 바로 이전 건물은 볼 수 있음
     for l in range(i-2,-1,-1): # 전전 건물 부터 첫번째 건물까지 거꾸로
         sl = (bd[i]-bd[l])/(i-l)
-        if s<=0: # 전의 기울기가 - 인경우
-            if sl<s: # 둘다 - 인 경우 앞의 건물과의 기울기가 더 작아야한다
-                result[i]+=1
-                s = sl
-        elif sl<0: # 전의 기울기는 +, 현재의 기울기는 - 이면 항상 볼 수 있다
+        if sl < s:
             result[i]+=1
-            s=sl
-        elif s > sl: # 전의 기울기도 +, 현재의 기울기도 + 이면 전의 기울기가 더 클때 볼 수 있다 (뒤의 건물이 더 낮을 때)
-            result[i]+=1
-            s=sl
+            s = sl
             
 # i 기준 오른쪽에 볼 수 있는 건물
 for i in range(n-1):
