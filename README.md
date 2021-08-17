@@ -26,6 +26,7 @@
 > 피어 규칙
 * 지각이나 결석시 미리 공지하기
 * 존중하며 의사소통 하기
+* 꼭 세마디 이상 말하기
 ------
 > 피어 세션때 할 것
 * 강의 내용 질문 : 강의 내용, 과제
@@ -54,3 +55,14 @@
 * 8/3 화 : Python 3\~5강, AI Math 5~6강
 * 8/4 수 : Python 6\~7강, AI Math 7~9강
 * 8/5 목 : AI Math 10강
+> 2주차
+* 8/9 월 : DL Basic 1\~2강
+* 8/10 화 : DL Basic 3강
+* 8/11 수 : DL Basic 4\~6강
+* 8/12 목 : DL Basic 7\~8강
+* 8/13 금 : DL Basic 9\~10강
+> 3주차
+* 8/17 화 : Pytorch 1\~3강, 시각화 3-1강
+* 8/18 수 : Pytorch 4~\5강, 시각화 3-2강, 필수과제 1 Custom Model 개발하기
+* 8/19 목 : Pytorch 6~\7강, 시각화 3-3강, 필수과제 2 Custom Dataset 과제
+* 8/20 금 : Pytorch 8~\10강, 시각화 3-4강, 선택과제 Transfer Learning + Parameter Tuning
