@@ -7,7 +7,7 @@ def solution(N):
     for i in range(2, N): # dp
         D[i] = D[i-1] + D[i-2]
 
-    return D[N-1]
+    return D[N-1] # 
 
 if __name__ == '__main__':
     N = int(input())
