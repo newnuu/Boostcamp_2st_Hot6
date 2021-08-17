@@ -39,7 +39,7 @@
 |8/17|[1003](https://www.acmicpc.net/problem/1003)|피보나치 함수|실버 3|전상민|다이내믹 프로그래밍|
 |8/17|[4150](https://www.acmicpc.net/problem/4150)|피보나치 수 7|실버 4|전상민|수학|
 * 4150번 문제를 풀면 다음 문제들의 정답도 똑같이 제출해서 통과할 수 있습니다 (solved.ac 경험치 꿀꺽)
-  * [10826](https://www.acmicpc.net/problem/10826), [2747](https://www.acmicpc.net/problem/2747), [10870](https://www.acmicpc.net/problem/10870), [2748](https://www.acmicpc.net/problem/2747)
+  * [10826](https://www.acmicpc.net/problem/10826), [2747](https://www.acmicpc.net/problem/2747), [10870](https://www.acmicpc.net/problem/10870), [2748](https://www.acmicpc.net/problem/2748)
 
 > Week 2  
 
@@ -63,13 +63,6 @@
 |8/3|[1058](https://www.acmicpc.net/problem/1058)|친구|실버2|최성원|DFS|
 |8/2|[1141](https://www.acmicpc.net/problem/1141)|접두사|실버3|최성원|문자열|
 |8/2|[1051](https://www.acmicpc.net/problem/1051)|숫자 정사각형|실버3|최성원|구현|
-
-
-
-
-
-
-
 
 
 * [bfs를 모르신다면 참고 사이트](https://cyc1am3n.github.io/2019/04/26/bfs_dfs_with_python.html)
