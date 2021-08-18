@@ -13,5 +13,5 @@ if __name__ == '__main__':
     T = int(input())
     N = [int(input()) for _ in range(T)]
     result = solution(41) # 최대 경우의 dp table 생성
-    for n in N:
-        print(*result[n])
+    for n in N: # 각 테스트
+        print(*result[n]) 
