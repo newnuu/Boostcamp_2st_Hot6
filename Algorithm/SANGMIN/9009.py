@@ -21,7 +21,7 @@ for i in range(n):
     m = int(input())
     fibo = [0, 1]
     idx = 0
-    while fibo[idx]+fibo[idx+1] < m:
+    while fibo[idx]+fibo[idx+1] <= m:
         fibo.append(fibo[idx]+fibo[idx+1])
         idx += 1
 
