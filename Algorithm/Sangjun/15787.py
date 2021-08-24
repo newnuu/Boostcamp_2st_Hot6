@@ -9,12 +9,12 @@ def _15787(N : int, command : list):
         # 1번 명령 : 사람 없을 때만 고려
         if cmd[0] == 1:
             if not train[cmd[1] - 1][cmd[2] - 1]:
-                train[cmd[1] - 1][cmd[2] - 1] = True
+                train[cmd[1] - 1][cmd[2] - 1] = 1
         
         # 2번 명령 : 사람 있을 때만 고려
         elif cmd[0] == 2:
             if train[cmd[1] - 1][cmd[2] - 1]:
-                train[cmd[1] - 1][cmd[2] - 1] = 
+                train[cmd[1] - 1][cmd[2] - 1] = 0
         
         # 3번 명령 : 마지막 사람 자르고 앞에 안탔다는 표시
         elif cmd[0] == 3:
