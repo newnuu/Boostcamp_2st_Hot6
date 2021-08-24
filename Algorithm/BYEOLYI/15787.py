@@ -31,3 +31,43 @@ for i in train:
         result.append(i)
 
 print(len(result))
+
+
+
+'''
+from sys import stdin
+input = stdin.readline
+
+n, m = map(int, input().split())
+train = [[0] * 20 for _ in range(n)]
+
+for _ in range(m):
+  data = list(map(int, input().split()))
+  train_copy = [[0] * 20 for _ in range(n)]
+
+  if data[0] == 1:
+    train[data[1]-1][data[2]-1] = 1
+
+  elif data[0] == 2:
+    train[data[1]-1][data[2]-1] = 0
+
+  elif data[0] == 3:
+    for i in range(19):
+      train_copy[data[1]-1][i+1-1] = train[data[1]-1][i-1]
+    train_copy[data[1]-1][0] = 0
+    train[data[1]-1] = train_copy[data[1]-1]
+
+  elif data[0] == 4:
+    for i in range(1, 20):
+      train_copy[data[1]-1][i-1-1] = train[data[1]-1][i-1]
+    train_copy[data[1]-1][19] = 0
+    train[data[1]-1] = train_copy[data[1]-1]
+
+result = []
+
+for i in range(n):
+  if train[i] not in result:
+    result.append(train[i])
+    
+print(len(result))
+'''
