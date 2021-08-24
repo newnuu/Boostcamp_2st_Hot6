@@ -36,7 +36,7 @@
 
 |날짜|번호|문제이름|난이도|선정자|분류|
 |------|---|---|---|---|---|
-|8/24|[14719](https://www.acmicpc.net/problem/14719)|빗물|골드 5|박별이|구현|
+|8/24|[14719](https://www.acmicpc.net/problem/14719)|빗물|https://d2gd6pc034wcta.cloudfront.net/tier/11.svg|박별이|구현|
 |8/23|[15787](https://www.acmicpc.net/problem/15787)|기차가 어둠을 헤치고 은하수를|실버 2|박별이|구현|
 
 > Week 3
