@@ -2,10 +2,12 @@
 https://www.acmicpc.net/problem/14719
 빗물
 [풀이]
-1. 20칸인 기차 생성
-2. 각 액션들을 인덱스 번호로 실행할 수 있도록 선언
-=> exec 사용 => lambda 에서는 할당이 안되므로
-3. 열차칸을 문자열로 만들고 set()으로 중복 조사.
+1. h, w input은 딱히 사용하지 않음
+2. 왼쪽에 있는 높은 블럭을 매번 기억 => left_block
+3. rain은 쌓일 가능성이 있는, stagnant_rain은 무조건 쌓이는 빗물
+4. 현재를 기준으로 오른쪽 블럭이 자신보다 높으면 빗물이 쌓인다
+=> left_block 보다 높거나 같으면 최대로 쌓인다
+=> left_block 보다 낮으면 현재 블럭과 right_block의 차이만큼 쌓인다
 '''
 import sys
 input = sys.stdin.readline
