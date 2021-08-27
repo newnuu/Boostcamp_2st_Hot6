@@ -1,5 +1,9 @@
 # 21938번 | 영상처리 | 실버 2
 
+# 최대 재귀 깊이를 늘림
+import sys
+sys.setrecursionlimit(10 ** 6)
+
 # 세로 길이가 n이고 가로 길이가 m인 화면
 n, m = map(int, input().split())
 # rgb 평균, 새로운 화면, 기존 화면
