@@ -3,7 +3,7 @@ from collections import deque
 input = stdin.readline
 
 
-# 영상변환 리스트 생성
+# 영상변환 리스트 생성.
 def _21938(N : int, M : int, image : list, T : int):
 
     display = [[] for _ in range(N)]
@@ -17,7 +17,7 @@ def _21938(N : int, M : int, image : list, T : int):
     return BFS(display, visit)
 
 
-# BFS로 물체 갯수 탐색
+# BFS로 물체 갯수 탐색.
 def BFS(graph : list, visit : list):
 
     ans = 0
