@@ -36,8 +36,10 @@
 
 |날짜|번호|문제이름|난이도|선정자|분류|
 |------|---|---|---|---|---|
+|8/27|[15566](https://www.acmicpc.net/problem/15566)|영상처리|실버 1|박별이|백트래킹|
+|8/27|[1600](https://www.acmicpc.net/problem/1600)|말이 되고픈 원숭이|골드 4|박별이|그래프 탐색|
 |8/26|[21938](https://www.acmicpc.net/problem/21938)|영상처리|실버 2|박별이|그래프 탐색|
-|8/25|[2961](https://www.acmicpc.net/problem/2961)|도영이가 만든 맛있는 음식|실버 1|박별이|완전탐색|
+|8/25|[2961](https://www.acmicpc.net/problem/2961)|도영이가 만든 맛있는 음식|실버 1|박별이|완전 탐색|
 |8/25|[2729](https://www.acmicpc.net/problem/2729)|이진수 덧셈|실버 4|박별이|구현|
 |8/24|[14719](https://www.acmicpc.net/problem/14719)|빗물|골드 5|박별이|구현|
 |8/23|[15787](https://www.acmicpc.net/problem/15787)|기차가 어둠을 헤치고 은하수를|실버 2|박별이|구현|
