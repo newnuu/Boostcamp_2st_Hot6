@@ -27,7 +27,7 @@ while q:
                 print(cnt+mcnt+1)
                 exit()
             if xx<w and xx>=0 and yy<h and yy>=0 and not visited[xx][yy] and not board[xx][yy]:
-                v = copy.deepcopy(visited)
+                v = copy.deepcopy(visited) # 각 시점에서의 visited
                 v[xx][yy]=1
                 heapq.heappush(q,(-xx,-yy,cnt+1,mcnt,v))
 
