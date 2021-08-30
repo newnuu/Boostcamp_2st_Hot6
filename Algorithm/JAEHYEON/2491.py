@@ -2,12 +2,12 @@ import sys
 input = sys.stdin.readline
 
 N = int(input()) # 수열의 길이
-seq_list = list(map(int, input().split())) # 순열 리스트
+seq_list = list(map(int, input().split())) # 수열 리스트
 
 cnt = 1
 max_length = 1
 
-#점점 작아지는 순열 찾기
+#점점 작아지는 수열 찾기
 for i in range(1, N):
     if seq_list[i - 1] >= seq_list[i]:
         cnt += 1
@@ -17,7 +17,7 @@ for i in range(1, N):
         max_length = cnt
 
 cnt = 1
-# 점점 커지는 순열 찾기
+# 점점 커지는 수열 찾기
 for i in range(1, N):
     if seq_list[i - 1] <= seq_list[i]:
         cnt += 1
