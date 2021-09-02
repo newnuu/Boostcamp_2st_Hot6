@@ -50,6 +50,16 @@
 
 
 ## 🛴 진도
+[Pstage]
+> 5주차
+* 8/30 ~ 9/3 : Special Mission & Project
+> 4주차 
+* 8/23 월 : Image Classification 1\~2강, Special Mission - EDA
+* 8/24 화 : Image Classification 3\~4강, Special Mission - Dataset
+* 8/25 수 : Image Classification 5\~6강, Special Mission - Model
+* 8/26 목 : Image Classification 7\~8강, Special Mission - Training & Inference
+* 8/27 금 : Image Classification 9\~10강, Special Mission - Ensemble & Experiment Toolkit
+[UStage]
 > 3주차
 * 8/17 화 : Pytorch 1\~3강, 시각화 3-1강
 * 8/18 수 : Pytorch 4\~5강, 시각화 3-2강, 필수과제 1 Custom Model 개발하기
